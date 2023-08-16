@@ -1,11 +1,11 @@
 import './App.css'
-import Cardgroup from './components/Cardgroup/Cardgroup'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
     <div>
-      <Cardgroup></Cardgroup>
+      <Header></Header>
     </div>
   )
 }
