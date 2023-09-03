@@ -1,0 +1,23 @@
+nav{
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+nav a{
+    margin-left: 80px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 90px;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: #011936;
+    color: #ffffff;
+    border-radius: 10px;
+}
+nav a.active{
+    color: rgba(229, 224, 224, 0.706);
+    background-color: #011936;
+    border-radius: 20px;
+}
